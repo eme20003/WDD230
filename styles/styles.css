@@ -26,6 +26,7 @@ header{
 
 header nav{
     font-size: 2em;
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
     text-align: left;
     margin: auto;
     padding: 20px;
@@ -62,23 +63,27 @@ main{
 main h1{
     text-align: center;
     font-size: 3em;
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+    color: #232c33;
 }
 
-hr{
+main hr{
     height: 3px;
     border: none;
-    background: gray;
+    background: #232c33;
     width: 95%;
 }
 
 main ul{
     font-size: 2em;
     list-style-type: square;
+    font-family: "Special Elite", Arial, Helvetica, sans-serif;
 }
 
 main ul li{
     display: block;
     margin: 40px;
+    color: #232c33;
 }
 
 main ul li a{
@@ -88,11 +93,6 @@ main ul li a{
 
 main ul li a:hover{
     color: red;
-    text-decoration: underline;
-}
-
-main ul li a:visited{
-    color: pink;
     text-decoration: underline;
 }
 
@@ -112,6 +112,7 @@ footer{
 .mainFooter{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
+    font-family: "Dangrek", Arial, Helvetica, sans-serif;
 }
 
 .mainFooter h2{

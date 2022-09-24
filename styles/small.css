@@ -19,13 +19,13 @@ header{
     border-radius: 50%;
     grid-column: 1;
     grid-row: 1;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin: auto;
 }
 
 header nav{
-    font-size: 2em;
+    font-size: 1em;
     font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
     text-align: left;
     margin: auto;
@@ -62,7 +62,7 @@ main{
 
 main h1{
     text-align: center;
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
     color: #232c33;
 }
@@ -75,7 +75,7 @@ main hr{
 }
 
 main ul{
-    font-size: 2em;
+    font-size: 1em;
     list-style-type: square;
     font-family: "Special Elite", Arial, Helvetica, sans-serif;
 }

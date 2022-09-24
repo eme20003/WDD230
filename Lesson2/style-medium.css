@@ -1,0 +1,16 @@
+@media only screen and (min-width: 37.5em){
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header nav{
+        font-size: 1.5em;
+    }
+    .myFace{
+        height: 150px;
+        width: 150px;
+    }
+    .Hicks-Law, .RuleOfThirds, .Proximity{
+        width: 70%;
+    }
+}

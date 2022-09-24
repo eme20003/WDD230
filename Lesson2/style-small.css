@@ -1,0 +1,79 @@
+body{
+    background-color: #b5b2c2;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 400px;
+    background-color: #232c33;
+}
+
+.myFace{
+    border-radius: 50%;
+    grid-column: 1;
+    grid-row: 1;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+header nav{
+    font-size: 1em;
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    background-color: #5a7d7c;
+    color: #dadff7;
+    border-radius: 10px;
+}
+header nav:hover{
+    background-color: #a0c1d1;
+    color: black;
+}
+
+.mainFooter{
+    font-family: "Dangrek", Arial, Helvetica, sans-serif;
+}
+
+.mainFooter h2{
+    text-align: center;
+}
+
+.mainFooter p{
+    margin: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1{
+font-family: "Dangrek", Arial, Helvetica, sans-serif;
+text-decoration: underline;
+font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: "Special Elite", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.Hicks-Law, .RuleOfThirds, .Proximity{
+    width: 40%;
+}
+
+footer{
+    background-color: #232c33;
+    color:#dadff7;
+    font-size: 1em;
+}

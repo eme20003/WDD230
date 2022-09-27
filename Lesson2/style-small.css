@@ -2,7 +2,6 @@ body{
     background-color: #b5b2c2;
 }
 
-
 header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

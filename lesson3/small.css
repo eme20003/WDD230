@@ -1,3 +1,6 @@
+body{
+    height: 100%;
+}
 body nav{
     height: 200px;
     width: 100%;
@@ -5,16 +8,35 @@ body nav{
 }
 
 main{
-    height: 500px;
+    height: 100%;
+}
+
+nav img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 nav ul li{
     list-style: none;
     padding: 20px;
     background-color: #004346;
-    display: inline;
+    display: inline-flex;
     color: white;
     text-decoration: none;
+}
+
+.MainPoint h1{
+    text-align: center;
+}
+
+.MainPoint h2{
+    text-align: center;
+}
+
+.sitePurpose img{
+    max-width: 100%;
+    max-height: auto;
 }
 
 

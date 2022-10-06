@@ -15,23 +15,65 @@ nav img{
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    display: flex;
+    border: 1px solid red;
+    margin-left: 100px;
+    
+}
+
+nav ul{
+    border: 1px solid red;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+    text-align: center;
 }
 
 nav ul li{
     list-style: none;
-    padding: 20px;
+    padding: 9px;
     background-color: #004346;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a{
+    display: block;
+    color: #74b3ce;
+    text-decoration: none;
+    
+}
+
+nav ul li:hover{
+    list-style: none;
+    padding: 20px;
+    background-color: #74b3c3;
+    color: #74b3c3;
     display: inline-flex;
-    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    display: inline-flex;
+    color: #004346;
     text-decoration: none;
 }
 
 .MainPoint h1{
     text-align: center;
+    font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
 }
 
 .MainPoint h2{
     text-align: center;
+    font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif;
+    font-size: .5rem;
+}
+
+.sitePurpose p {
+    font-family: 'PT Serif', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
 }
 
 .sitePurpose img{
@@ -44,4 +86,42 @@ footer{
     height: 100px;
     width: 100%;
     background-color: #09bc8a;
+}
+
+footer h3, h4{
+    text-align: center;
+}
+
+main h1{
+    font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    font-family: 'Inter Tight', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'PT Serif', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.persona1{
+    width: 50%;
+}
+
+.persona2{
+    width: 50%;
+}
+
+.colorSchemeInfo{
+    
 }

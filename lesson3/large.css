@@ -1,0 +1,15 @@
+@media only screen and (min-width: 60em){
+    nav ul li{
+        padding: 20px;
+        display: inline-flex;
+    }
+    .MainPoint h1{
+        font-size: 3rem;
+    }
+    .MainPoint sssh2{
+        font-size: 1.5rem;
+    }
+    .sitePurpose p {
+        font-size: 1.5rem;
+    }
+}

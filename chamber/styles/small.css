@@ -1,0 +1,107 @@
+body{
+    background-color: #38618c;
+}
+
+header{
+    height: 200px;
+}
+
+nav{
+    background-color: #ff5964;
+}
+
+nav img{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+main .callToAction {
+    border: 3px solid rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+    height: 500px;
+    width: 100%;
+}
+
+main .news{
+    border: 3px solid rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+    height: 300px;
+}
+
+main .events{
+    border: 3px solid rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+    height: 300px;
+}
+
+main .weather{
+    border: 3px solid rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+}
+
+main .spotlights{
+    border: 3px solid rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+}
+
+
+
+footer{
+    background-color: #ff5964;
+}
+
+footer img{
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}

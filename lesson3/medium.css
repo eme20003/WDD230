@@ -1,0 +1,15 @@
+@media only screen and (min-width: 37.5em){
+    nav ul li{
+        padding: 10px;
+    }
+    .MainPoint h1{
+        font-size: 2rem;
+    }
+    .MainPoint h2{
+        font-size: 1rem;
+    }
+
+    .sitePurpose p {
+        font-size: 1.5rem;
+    }
+}

@@ -3,7 +3,7 @@
         display: none;
     }
 
-    nav ul #primaryNav{
+    nav #primaryNav{
         display: flex;
         margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
@@ -24,5 +24,9 @@
         border-radius: 50%;
         height: 5%;
         width: 5%;
+    }
+
+    main{
+        margin-top: 100px;
     }
 }

@@ -16,13 +16,11 @@ nav img{
     width: 100px;
     height: 100px;
     display: flex;
-    border: 1px solid red;
     margin-left: 100px;
     
 }
 
 nav ul{
-    border: 1px solid red;
     width: 50%;
     margin: auto;
     margin-top: -50px;

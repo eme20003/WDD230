@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav>
-            <img src="images\Limitless.png" alt="Logo of Limitless Horizons">
+            <img src="images\Limitless.webp" alt="Logo of Limitless Horizons">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
             <ul id="primaryNav">
                 <li><a href="#">Home</a></li>
@@ -32,9 +32,10 @@
     <main>
         <h1>Welcome to Limitless Horizons!</h1>
         <div class="callToAction">
-            <div class="heroImg">
-                <img src="images\chamberHeroImg.jpg">
-            </div>
+            <picture class="heroImg">
+                <img src="images\wdd230-org.jpg" sizes= "100vw" srcset="images\wdd230-org-small.jpg 200w, images\wdd230-org-medium.jpg 400w, images\wdd230-org-large.jpg 600w">
+                
+            </picture>
                 <section class="news1">
                     <h2>Highlighted Personal Story</h2>
                     <p>Take a look at this months star! Jeff Daniels has gone from an idealist to a financially sound business owner!
@@ -79,7 +80,15 @@
             </div>
             <section class="weatherInfo">
                 <h2>Temperature: 70</h2>
-                <h2>Sunny</h2>
+
+                <label for="Temperature">Temperature: </label>
+                <input type="text" id="temperature" name="Temperature">
+
+                <label for="WindSpeed">Wind Speed: </label>
+                <input type="text" id="windSpeed" name="WindSpeed">
+
+                <button type="button" id="windSpeedButton">Calculate Wind Speed!</button>
+
 
             </section>
         </div>
@@ -106,7 +115,7 @@
     <footer>
         <div class="mainFooter">
             <div class="logo">
-                <img src="images\Limitless.png" alt="Logo of Limitless Horizons">
+                <img src="images\Limitless.webp" alt="Logo of Limitless Horizons">
             </div>
             <section class="personalInfo">
                 <p>phone: (777) 111-1111   email: eme200003@byui.edu</p>
@@ -122,5 +131,6 @@
     </footer>
     
 <script src="scripts/scripts.js"></script>
+<script src="scripts/windChill.js"></script>
 </body>
 </html>

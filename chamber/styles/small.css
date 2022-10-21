@@ -202,6 +202,13 @@ main h1{
     opacity: .8;
 }
 
+#windChillTotal{
+    border: 1px solid red;
+    background-color: #ffe74c;
+    opacity: .8;
+    font-size: 1.5rem;
+}
+
 .spotlights{
     grid-column: 1/13;
     margin-bottom: 1rem;

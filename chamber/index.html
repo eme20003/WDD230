@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav>
-            <img src="images\Limitless.png" alt="Logo of Limitless Horizons">
+            <img src="images\Limitless.webp" alt="Logo of Limitless Horizons">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
             <ul id="primaryNav">
                 <li><a href="#">Home</a></li>
@@ -22,53 +22,115 @@
                 <li><a href="#">Schedule</a></li>
                 <li><a href="#">Questions</a></li>
             </ul>
-            <div id="actualDate">Todays Date</div>
+            <div id="actualDate">
+            <p id="todaysDate">Todays Date</p>
             <p>link to site: www.limitlessHorizons.com</p>
+            </div>
         </nav>
     </header>
 
     <main>
         <h1>Welcome to Limitless Horizons!</h1>
         <div class="callToAction">
-            <h1>Hero Image and call to action</h1>
+            <picture class="heroImg">
+                <img src="images\wdd230-org.jpg" srcset="images\wdd230-org-small.jpg 400w, images\wdd230-org-medium.jpg 600w, images\wdd230-org-large.jpg 1200w">
+            </picture>
+
+                <section class="news1">
+                    <h2>Highlighted Personal Story</h2>
+                    <p>Take a look at this months star! Jeff Daniels has gone from an idealist to a financially sound business owner!
+                    </p>
+                </section>
+
+                <section class="news2">
+                    <h2>Special Guest</h2>
+                    <p>Get ready your calendars and book a ticket now! Our special guests are hand picked by our team to ensure you will recieve
+                        the best, most reliable information on how to better your business, finances, or even how to get started! 
+                    </p>
+                </section>
+
+                <section class="news3">
+                    <h2>Staff</h2>
+                    <p>Want to know us better?  Click here so you can meet us!</p>
+                </section>
         </div>
 
-        <div class="news">
-            <h1>News</h1>
+        <div class="chamberNews">
+            <h1>Chamber News</h1>
+            <img src="images\LimitlessHorizonsNews.jpg" alt="image of newspaper">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue urna, pharetra sed libero et, vehicula blandit dolor. Nam volutpat massa id diam vulputate, nec aliquam urna sollicitudin. Duis vel efficitur quam, dictum posuere justo. Mauris auctor sollicitudin diam, at elementum odio tempus a. Donec in dolor feugiat, sollicitudin dui vel, congue risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum risus urna, consectetur maximus magna sed, malesuada dignissim est. In feugiat odio et tristique porttitor. Mauris imperdiet euismod justo ac accumsan. Vivamus quam libero, scelerisque eget tortor id, cursus pellentesque enim.</p>
         </div>
 
         <div class="events">
             <h1>Events within Limitless Horizons</h1>
+            <img src="images\ChamberEvents.jpg" alt="image of calendar">
+            <section class="eventList">
+                <ul>
+                    <li>Workshops</li>
+                    <li>Business Mix and Mingle</li>
+                    <li>Guest Speaker</li>
+                    <li>Personal Assisstance</li>
+                </ul>
+            </section>
         </div>
 
         <div class="weather">
-            <h1>Weather</h1>
+            <div class="weatherImg">
+                <img src="images\chamberWeather.jpg" alt="image of clouds">
+            </div>
+            <section class="weatherInfo">
+                <h2>Temperature: 70</h2>
+
+                <label for="Temperature">Temperature: </label>
+                <input type="text" id="temperature" name="Temperature">
+
+                <label for="WindSpeed">Wind Speed: </label>
+                <input type="text" id="windSpeed" name="WindSpeed">
+
+                <button type="button" id="windSpeedButton">Calculate Wind Speed!</button>
+
+
+            </section>
         </div>
 
         <div class="spotlights">
             <div class="spotlight1">
                 <h1>Spotlight 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue urna, pharetra sed libero et, vehicula blandit dolor. Nam volutpat massa id diam vulputate, nec aliquam urna sollicitudin.</p>
             </div>
 
             <div class="spotlight2">
                 <h1>Spotlight 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue urna, pharetra sed libero et, vehicula blandit dolor. Nam volutpat massa id diam vulputate, nec aliquam urna sollicitudin.</p>
             </div>
 
             <div class="spotlight3">
                 <h1>Spotlight 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue urna, pharetra sed libero et, vehicula blandit dolor. Nam volutpat massa id diam vulputate, nec aliquam urna sollicitudin.</p>
             </div>
         </div>
 
     </main>
 
     <footer>
-        <div class="footer">
-            <img src="images\Limitless.png" alt="Logo of Limitless Horizons">
-            <p>phone: (777) 111-1111   email: eme200003@byui.edu</p>
-            <p>&#169; 2022 Limitless Horizons | Daniel Emerson | WDD 230 Project</p>
+        <div class="mainFooter">
+            <div class="logo">
+                <img src="images\Limitless.webp" alt="Logo of Limitless Horizons">
+            </div>
+            <section class="personalInfo">
+                <p>phone: (777) 111-1111   email: eme200003@byui.edu</p>
+            </section>
+            <section class="websiteInfo">
+                <p>&#169; 2022 Limitless Horizons | Daniel Emerson | WDD 230 Project</p>
+            </section>
+            <section class="refrences">
+                <p>Logo created in <a href="https://www.canva.com/">Canva</a></p>
+                <p>All hero images are from a free image source: <a href="https://www.pexels.com/">www.pexels.com</a></p>
+            </section>
         </div>
     </footer>
     
 <script src="scripts/scripts.js"></script>
+<script src="scripts/windChill.js"></script>
 </body>
 </html>

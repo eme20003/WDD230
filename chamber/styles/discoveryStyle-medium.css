@@ -1,0 +1,23 @@
+@media only screen and (min-width: 35rem){
+
+    .firstImage img,
+    .secondImage img,
+    .thirdImage img,
+    .fourthImage img,
+    .fifthImage img{
+        float: none;
+    }
+
+    p{
+        margin-left: 2%;
+    }
+
+    .thirdImage{
+        margin-bottom: 3%;
+    }
+
+    .fourthImage{
+        margin-bottom: 3%;
+    }
+
+}

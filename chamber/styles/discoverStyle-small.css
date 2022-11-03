@@ -1,0 +1,59 @@
+body{
+    background-color: #FF5964;
+}
+
+p{
+    color: white;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1 {
+    color: #FFe74c;
+}
+
+h2{
+    margin-bottom: 5%;
+    color: white;
+}
+
+.firstImage,
+.secondImage,
+.thirdImage,
+.fourthImage,
+.fifthImage{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.firstImage img,
+.thirdImage img,
+.fifthImage img{
+    float: left;
+    size: 50vw;
+    margin-left: 2%;
+    margin-right: 2rem;
+    margin-bottom: 2%;
+}
+
+.secondImage img,
+.fourthImage img{
+    float: right;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.thirdImage{
+    margin-bottom: 25%;
+}
+
+.fourthImage{
+    margin-bottom: 10%;
+}
+
+.mainFooter{
+    background-color: #38618c;
+    color: white;
+}

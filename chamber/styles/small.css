@@ -252,8 +252,67 @@ footer .refrences{
     grid-column: 3;
 }
 
+/* Submit Form */
 
+.chamberSubmitForm{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: .25rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
+}
 
+.chamberSubmitForm label{
+    grid-column: 1;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    padding: 5px;
+    width: 250px;
+}
+
+.chamberSubmitForm input{
+    padding: 5px;
+    background-color: #38618c;
+    color: white;
+}
+
+.chamberSubmitForm textarea{
+    background-color:  #38618c;
+    color: white;
+}
+
+.chamberSubmitForm #dateTime{
+    display: none;
+}
+
+#submitButton{
+    grid-column: 1 / 2;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    background-color: #ffe74c;
+    color: black;
+}
+
+/* Thank you page */
+
+.thankPage{
+    height: 500px;
+    width: auto;
+}
+
+.thankPage h1{
+    color: #ffe74c;
+    text-align: center;
+}
+
+.thankPage p{
+    color: white;
+    text-align: center;
+}
 main{
     margin-top: 200px;
 }

@@ -1,0 +1,11 @@
+header,
+main,
+footer{
+    margin: 1rem;
+    position: relative;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}

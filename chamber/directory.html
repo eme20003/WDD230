@@ -9,10 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Kalam&display=swap" rel="stylesheet">
-    <title>Join us Form</title>
+    <title>LH Directory</title>
 </head>
 <body>
-
     <header>
         <nav>
             <img src="images\Limitless.webp" alt="Logo of Limitless Horizons">
@@ -20,7 +19,7 @@
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">About Us</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Directory</a></li>
                 <li><a href="join.html">Join Us!</a></li>
             </ul>
             <div id="actualDate">
@@ -30,46 +29,13 @@
         </nav>
     </header>
 
-    <main>
-        <form class="chamberSubmitForm" method="get" action="thankYou.html">
-            
-            <label for="firstName">First Name*: </label>
-            <input type="text" id="firstName" name="firstName" required maxlength="20">
-
-            <label for="lastName">Last Name*: </label>
-            <input type="text" id="lastName" name="lastName" required maxlength="20">
-
-            <label for="businessPosition">Business Position*: </label>
-            <input type="text" id="businessPosition" name="businessPosition" minlength="7">
-
-            <label for="userEmail">Email*: </label>
-            <input type="email" id="userEmail" name="userEmail" required>
-
-            <label for="userPhone">Phone Number*: </label>
-            <input type="tel" id="userPhone" name="userPhone" required>
-
-            <label for="businessName">Business Name*: </label>
-            <input type="text" id="businessName" name="businessName" required>
-
-            <label for="membershipLevel">Choose your type of Membership</label>
-            <input list="membershipLevels" id="membershipLevel" name="membershipLevel">
-            <datalist id="membershipLevels">
-                <option value="NP Membership">
-                <option value="Bronze Membership">
-                <option value="Silver Membership">
-                <option value="Gold Membership">
-            </datalist>
-
-            <label for="businessDescription">Business Description: </label>
-            <textarea id="businessDescription" name="businessDescription" rows="4" cols="50">
-            </textarea>
-
-            <input type="datetime-local" id="dateTime" name="dateTime">
-
-            <input id="submitButton" type="submit" value="Submit Your Form!">
-
-
-        </form>
+    <main class="directoryview">
+        <div class="menu">
+        <button id="grid">Full View</button>
+        <button id="list">List View</button>
+        </div>
+        <div class="card">
+        </div>
     </main>
 
     <footer>
@@ -89,6 +55,8 @@
             </section>
         </div>
     </footer>
+
+    <script src="scripts\directoryJson.js"></script>
     
 </body>
 </html>

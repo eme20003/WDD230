@@ -196,7 +196,8 @@ main h1{
 .weather .weatherInfo{
     position: absolute;
     top: 1rem;
-    width: 100%;
+    width: 90%;
+    height: auto;
     opacity: 0.8;
     background-color: #ffe74c;
     opacity: .8;
@@ -401,4 +402,11 @@ img {
 	.list section img {
 		display: block;
 	}
+}
+
+/* weather img */
+#weatherIcon{
+    margin-right: 0px;
+    height: 50px;
+    width: auto;
 }

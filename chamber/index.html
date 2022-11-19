@@ -79,20 +79,17 @@
                 <img src="images\chamberWeather.jpg" alt="image of clouds">
             </div>
             <section class="weatherInfo">
-                <h2>Temperature: 70</h2>
-
-                <label for="Temperature">Temperature: </label>
-                <input type="text" id="temperature" name="Temperature">
-
-                <label for="WindSpeed">Wind Speed: </label>
-                <input type="text" id="windSpeed" name="WindSpeed">
+                <h2>Temperature: <span id="temperature"></h2>
+                <p>Condtion: <span id="condition"></p>
+                <img src="" alt="" id="weatherIcon"/>
+                <p>Wind Speed: <span id="windSpeed"></p>
+                <p>Wind Chill: <span id="windChill"></p>
 
                 <button type="button" id="windSpeedButton">Calculate Wind Speed!</button>
 
 
             </section>
         </div>
-
         <div class="spotlights">
             <div class="spotlight1">
                 <h1>Spotlight 1</h1>
@@ -132,5 +129,6 @@
     
 <script src="scripts/scripts.js"></script>
 <script src="scripts/windChill.js"></script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>

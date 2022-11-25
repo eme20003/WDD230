@@ -55,12 +55,12 @@ gridbutton.addEventListener("click", () => {
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList);
+listbutton.addEventListener("click", () => {
 
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
+    display.classList.add("list");
+    display.classList.remove("grid");
+});
 
+console.log(display.classList);
 getCompanies();
 

@@ -43,11 +43,12 @@
 
     .news1, .news2, .news3{
     top: 40%;
-    height: 20%;
+    height: 30%;
     width: 30%;
     margin-left: 1.5rem;
-    padding: 5px;
+    padding: 5px; 
     }
+
     .news1 p, .news2 p, .news3 p{
         display: block;
     }
@@ -123,4 +124,89 @@
         text-align: center;
         font-size: 1.5rem;
 }
+
+/* Directory Designing*/
+
+main {
+	margin: 0 auto;
+	padding: 0.5rem;
+}
+
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+}
+
+section {
+	margin: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ffe74c;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0.1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none;
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section a {
+	font-size: 0.9rem;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 925px){
+    .news1 p, .news2 p, .news3 p{
+        display: none;
+    }
 }

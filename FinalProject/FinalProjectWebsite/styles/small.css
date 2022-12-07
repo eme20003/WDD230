@@ -1,0 +1,49 @@
+/* Header Design*/
+
+header{
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+}
+
+header .Logo{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 2%;
+    position: relative;
+}
+
+header .Logo img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+}
+nav{
+    border: 1px solid red;
+    margin-left: 2%;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    border: 1px solid blue;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    margin: 2%;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

@@ -1,5 +1,4 @@
 /* Header Design*/
-
 header{
     display: inline-flex;
     width: 100%;
@@ -43,6 +42,97 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+}
+
+/* main hero image*/
+main .heroImage{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.heroImage img{
+    object-fit: contain;
+}
+
+/*Hero Image Header*/
+.welcomeMessage{
+    text-align: center;
+}
+
+/* Specialty Drink Form and Image*/
+.specialtyDrink{   
+    position: absolute;
+    z-index: 1;
+    border: 1px solid orange;
+    margin-top: -700px;
+    margin-left: 300px;
+    
+
+}
+
+.specialtyDrink img{
+    height: 600px;
+    width: auto;
+}
+
+.specialtyDrink p{
+    position: absolute;
+    text-decoration: none;
+    background-color: #a9fbd7;
+    border-radius: 36px;
+    width: 75%;
+    height: auto;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -200px;
+    margin-left: 50px;
+    padding: 5px;
+    transition: background-color 1s;
+}
+
+.specialtyDrink h2{
+    position: absolute;
+    margin-top: -550px;
+    background-color: #a9fbd7;
+    width: 97%;
+    text-align: center;
+}
+
+.specialtyDrink p a,
+h2{
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.specialtyDrink p:hover{
+    background: navy;
+    
+}
+
+.specialtyDrink p a:hover{
+    color: #a9fbd7;
+}
+
+
+
+/*News*/
+.newsBoard{
+
+}
+
+/* Weather Info */
+.weatherBoard{
+
+}
+
+/* Popular Specialty Drinks*/
+.specialtyDrinks{
+
 }
 
 

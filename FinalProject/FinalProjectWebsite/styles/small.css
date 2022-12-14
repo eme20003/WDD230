@@ -118,22 +118,123 @@ h2{
     color: #a9fbd7;
 }
 
+/* Welcome Message*/
 
+.welcomeMessage{
+    margin-top: 100px;
+}
 
 /*News*/
 .newsBoard{
+    display: inline-flex;
+    margin-left: 2%;
+    margin-top: 50px;
+    align-items: flex-start;
+    border: 1px solid red;
+    width: 50%;
+
+}
+
+.newsBoard img{
+    height: 500px;
+    width: auto;
+    opacity: .8;
+}
+
+.newsBoard h2{
+    position: absolute;
+    text-align: center;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.newsBoard p{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 10%;
+    color: black;
+    font-weight: bold;
 
 }
 
 /* Weather Info */
 .weatherBoard{
+    display: flex;
+    width: 50%;
+    border: 1px solid blue;
+    margin-left: 2%;
 
+}
+
+.weatherBoard img{
+    height: 700px;
+    width: auto;
+}
+
+.weatherBoard h2:nth-child(1){
+    position: absolute;
+
+}
+
+.weatherBoard h2:nth-child(2){
+    position: absolute;
 }
 
 /* Popular Specialty Drinks*/
 .specialtyDrinks{
+    display: flex;
+    justify-content: space-around;
+}
 
+.specialtyDrinks h2{
+    border: 1px solid orange;
+}
+
+/* footer desing*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+footer .logo img{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+footer .socialMediaLinks img{
+    height: 50px;
+    width: auto;
+    margin: 20px;
 }
 
 
+/* Fresh Page */
 
+.orderNow{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main .form{
+    display: grid;
+    width: 50%;
+    height: auto;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
+}
+
+main .form label{
+    grid-column: 1;
+    text-align: left;
+}
+
+main .form input, select{
+
+}

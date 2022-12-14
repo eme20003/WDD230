@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/small.css"/>
+    <title>Fresh Drinks</title>
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="Images\BountifulFoodLogo.png" alt="Bountiful Foods Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Fresh</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Produce</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="orderNow">
+            <h1>Select Your Ingredients For YOUR Specialty Drink!</h1>
+            <p>Please fill out the form below</p>
+        </div>
+        <form class="form" method="get" action="#">
+            <label for="firstName">*First Name: </label>
+            <input type="text" id="firstName" name="firstName" required maxlength="20">
+
+            <label for="email">*Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="email">*Phone: </label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <select name="ingredient1" id="ingredient1">
+                <option value="null" selected>First Ingredient</option>
+            </select>
+
+            <select name="ingredient1" id="ingredient1">
+                <option value="null" selected>Second Ingrendient</option>
+            </select>
+
+            <select name="ingredient1" id="ingredient1">
+                <option value="null" selected>Thrid Ingredient</option>
+            </select>
+
+            <label for="specialInstructions">Special Instructions: </label>
+            <textarea id="specialInstructions" name="specialInstructions"></textarea>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <img src="Images\BountifulFoodLogo.png" alt="Bountiful Foods Logo">
+        </div>
+
+        <section class="personalInfo">
+            <p>Daniel Emerson</p>
+            <p>Web Development and Design 230</p>
+            <p>&#169 2022</p>
+        </section>
+
+        <section class="socialMediaLinks">
+            <img src="Images\facebookImage.png" alt="Facebook">
+            <img src="Images\twitterImage.png" alt="Twitter">
+            <img src="Images\instagramImage.png" alt="Instagram">
+        </section>
+
+        <section class="refrences">
+            <p>All images from: <a href="https://www.pexels.com/">Pexels</a></p>
+        </section>
+    </footer>
+    
+</body>
+</html>

@@ -17,7 +17,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Fresh</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Produce</a></li>
             </ul>
         </nav>
     </header>
@@ -34,23 +33,25 @@
             <label for="email">*Email: </label>
             <input type="email" id="email" name="email" required>
 
-            <label for="email">*Phone: </label>
+            <label for="phone">*Phone: </label>
             <input type="tel" id="phone" name="phone" required>
 
             <select name="ingredient1" id="ingredient1">
                 <option value="null" selected>First Ingredient</option>
             </select>
 
-            <select name="ingredient1" id="ingredient1">
+            <select name="ingredient2" id="ingredient2">
                 <option value="null" selected>Second Ingrendient</option>
             </select>
 
-            <select name="ingredient1" id="ingredient1">
+            <select name="ingredient3" id="ingredient3">
                 <option value="null" selected>Thrid Ingredient</option>
             </select>
 
             <label for="specialInstructions">Special Instructions: </label>
             <textarea id="specialInstructions" name="specialInstructions"></textarea>
+
+            <input id="submitButton" type="submit" value="Order Drink">
 
         </form>
     </main>
@@ -78,4 +79,6 @@
     </footer>
     
 </body>
+
+<script src="scripts\produceAPI.js"></script>
 </html>

@@ -1,0 +1,45 @@
+@media only screen and (min-width: 35rem){
+    main .heroImage{
+        width: 700px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .welcomeMessage{
+        text-align: center;
+        margin-left: -2%;
+        margin-top: 50px;
+    }
+
+    .specialtyDrink{   
+        position: absolute;
+        z-index: 1;
+        margin-top: -500px;
+        margin-left: 150px;
+    }
+
+    .specialtyDrink img{
+        height: auto;
+        width: 250px;
+    }
+
+    .specialtyDrink h2{
+        position: absolute;
+        margin-top: -350px;
+        background-color: #a9fbd7;
+        width: 96%;
+        text-align: center;
+    }
+
+    .newsBoard img{
+        width: 600px;
+        height: auto;
+        opacity: .8;
+    }
+
+    .weatherBoard p{
+        position: absolute;
+        margin-top: -400px;
+        margin-bottom: 2%;
+    }
+}

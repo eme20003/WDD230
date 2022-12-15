@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64rem){
+    /* Header Design*/
+    main .heroImage{
+        width: 900px;
+        height: auto;
+        margin-left: 20%;
+    }
+    
+    .newsBoard{
+        height: 500px;
+    }
+
+    header{
+        display: inline-flex;
+        width: 2000px;
+    }
+    footer{
+        width: 2000px;
+    }
+}

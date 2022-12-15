@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/small.css"/>
+    <link rel="stylesheet" href="styles/medium.css"/>
+    <link rel="stylesheet" href="styles/large.css"/>
     <title>Bountiful Foods</title>
 </head>
 <body>
@@ -17,7 +19,6 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="Fresh.html">Fresh</a></li>
                 <li><a href="AboutUs.html">About Us</a></li>
-                <li><a href="#">Produce</a></li>
             </ul>
         </nav>
     </header>
@@ -41,6 +42,7 @@
             <p><a href="Fresh.html">Order Now</a></p>
         </div>
 
+        <div class="test">
         <div class="newsBoard">
             <picture>
                 <img src="Images\NewsImage-1200.jpg" alt="News Image">
@@ -54,7 +56,17 @@
                 <img src="Images\WeatherImage-1200.jpg" alt="Weather image">
             </picture>
             <h2>Todays Weather: </h2>
-            <h2>3 Day Forecast: </h2>
+            <p>Temperature: <span id="temp"></span>&deg;F.</p>
+            <br>
+            <p>Humidity: <span id="humidity"></span></p>
+            <br>
+            <p>Current Conditions: <span id="condition"></span></p>
+            <br>
+            <figure>
+                <img src="" alt="" id="weathericon"/>
+                <figcaption></figcaption>
+            </figure>
+        </div>
         </div>
 
         <div class="specialtyDrinks">
@@ -113,4 +125,5 @@
         </section>
     </footer>
 </body>
+<script src="scripts\weather.js"></script>
 </html>

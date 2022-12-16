@@ -1,45 +1,140 @@
 @media only screen and (min-width: 35rem){
-    main .heroImage{
-        width: 700px;
-        height: auto;
-        margin-bottom: 100px;
+    .heroImage img{
+        width: 1000px;
+        height: auto; 
     }
 
-    .welcomeMessage{
-        text-align: center;
-        margin-left: -2%;
-        margin-top: 50px;
-    }
-
-    .specialtyDrink{   
+    .specialtyDrink{
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
         position: absolute;
-        z-index: 1;
         margin-top: -500px;
-        margin-left: 150px;
+        margin-left: 2%;
     }
 
     .specialtyDrink img{
-        height: auto;
-        width: 250px;
+        margin-top: -500px;
+        margin-left: -500px;
+        opacity: 1;
     }
 
     .specialtyDrink h2{
         position: absolute;
-        margin-top: -350px;
-        background-color: #a9fbd7;
-        width: 96%;
-        text-align: center;
+        z-index: 1;
+        margin-top: -1220px;
+        margin-left: 10%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: navy;
     }
 
-    .newsBoard img{
-        width: 600px;
+    .specialtyDrink p a{
+        position: absolute;
+        margin: auto;
+        margin-top: -1100px;
+        margin-left: 20%;
+        font-size: 2rem;
+        padding: 10px;
+        background-color: #938ba1;
+        text-decoration: none;
+        font-weight: bold;
+        color: #A9fbd7;
+        border-radius: 15px;
+    }
+
+    .welcomeMessage p{
+        
+        margin-bottom: 70px;
+    }
+
+    .newsBoard {
+        overflow: hidden;
+        width: 50%;
         height: auto;
-        opacity: .8;
+        margin-bottom: 20px;
+    }
+
+    .newsBoard h2{
+        position: absolute;
+        margin-top: -750px;
+        margin-left: 170px;
+    }
+    
+    .newsBoard p{
+        position: absolute;
+        margin-top: -670px;
+        margin-left: 2%;
+    }
+
+    .weatherBoard{
+        width: 50%;
+        height: 801px;
+        overflow: hidden;
+        margin-top: -825px;
+        margin-left: 50%;
+    }
+
+    
+    .weatherBoard h2{
+        position: absolute;
+        margin-top: -1000px;
+        margin-left: 100px;
+        font-size: 3rem;
+        z-index: 1;
     }
 
     .weatherBoard p{
         position: absolute;
-        margin-top: -400px;
+        margin-top: -900px;
+        margin-left: 150px;
+        font-size: 1.5rem;
         margin-bottom: 2%;
+        color: #A9fbd7;
     }
+
+    .specialtyDrinks{
+        display: inline-flex;
+        justify-content: space-around;
+        height: 300px;
+        width: 100%;
+    }
+
+    .aboutUs h1:nth-child(1){
+        color: white;
+        margin-right: 2%;
+        margin-left: 300px;
+    }
+
+    .aboutUs1 img{
+        height: 500px;
+        width: auto;
+    }
+
+    .text1 p{
+        margin-left: 2%;
+        margin-top: 50px;
+    }
+
+    .aboutUs1{
+        display: flex;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .aboutUs2{
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .aboutUs2 picture{
+        width: 500px;
+        margin-left: 2%;
+    }
+
+    .aboutUs3{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
 }
